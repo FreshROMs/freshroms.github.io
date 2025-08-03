@@ -2,6 +2,10 @@ baseURL = "https://fresh.tenseventyseven.cf"
 languageCode = "en-us"
 title = "Fresh | tensevntysevn"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 copyright = "© John Vincent - 2021"
 footerLogo = "/assets/images/widget-logo.png"
